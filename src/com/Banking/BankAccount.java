@@ -74,9 +74,9 @@ public class BankAccount {
 		
 		BankAccount bankAcc1=new BankAccount("Narendra Kumar",50000); // creating object with name and age attributes 
 		 
-		 bankAcc1.display();    // calling method to print 
-		 bankAcc1.deposit();    // calling method to add balance 
-	     bankAcc1.withdrawal(); // calling method to withdraw balance 
+		 bankAcc1.display();    // Implementing method to print 
+		 bankAcc1.deposit();    // Implementing method to add balance 
+	     bankAcc1.withdrawal(); // Implementing method to withdraw balance 
 	}
 
 }

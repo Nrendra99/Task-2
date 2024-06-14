@@ -44,8 +44,8 @@ public class XYZ {
 			
 			double totalAmount=0;      //initialize total amount 
 			
-			for(int i=0;i<products.length;i++) {  //logic to get total amount 
-				totalAmount+=products[i].getQuantity()*products[i].getPrice();
+			for(int i=0;i<products.length;i++) {  //for loop to check all products
+				totalAmount+=products[i].getQuantity()*products[i].getPrice();//logic to get total amount 
 			}
 			    return totalAmount;    // returning total amount
 		}

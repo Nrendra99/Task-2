@@ -34,9 +34,9 @@ public class Person {
 	
 	public static void main(String[]args) {  
 		
-		Person person1=new Person(); //creating object person1 with values for each attribute	
+		Person person1=new Person(); //creating object person1 	
 			person1.setName("Narendra Kumar");//setting custom name only 
-			person1.display();
+			person1.display();//Implementing method to print details 
 					
 	    }
 		

@@ -59,6 +59,6 @@ public class Employee  extends Person  {  //creating class Employee that inherit
 		public static void main(String[]args) {
 			
 			 Employee employee1=new Employee("100A", 50000, "Developer", 25, "Narendra Kumar");	//creating object employee1 with values for each attribute		
-			          employee1.dispalayEmplyeeDetails();
+			          employee1.dispalayEmplyeeDetails();//implementing method to print details 
 		}
 }
