@@ -33,7 +33,7 @@ public class BankAccount {
 		this.name = name;
 	}
 	
-	public void display(){        //method for printing Name and age 
+	public void display(){        //method for printing Name and Balance
 		System.out.println("Name:"+this.getName());
 		 System.out.println("Balance: "+this.getBalance());
 	}
